@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flip Cards</title>
+</head>
+<body style="background-color: black;">
+    <h1 class="text"> Flipping Cards</h1>
+    <p class="instruction">Find <span class="level-show">0</span> same cards to win</p>
+    <div class="timer">00:00</div>
+    <div class="cards-container">
+        <!-- <div class="cards 1a a"> -->
+            <div class="cards 1a1" data-value="" data-open="" data-correct="" data-complete="false">
+                <div class="inner-card 1a-a">front</div>
+                <div class="outer-card 1a-a" ></div>
+            </div>
+            <div class="cards 1a2" data-value="" data-open="" data-correct="" data-complete="false">
+                <div class="inner-card 2a-a">front</div>
+                <div class="outer-card 2a-a"></div>
+            </div>
+            <div class="cards 1a3" data-value="" data-open="" data-correct="" data-complete="false">    
+                <div class="inner-card 3a-a">front</div>
+                <div class="outer-card 3a-a"></div>
+            </div>
+        <div class="cards 1a4" data-value="" data-open="" data-correct="" data-complete="false">
+            <div class="inner-card 4a-a">front</div>
+            <div class="outer-card 4a-a"></div>
+        </div>
+            <div class="cards 2b1" data-value="" data-open="" data-correct="" data-complete="false">    
+                <div class="inner-card 1b-b">front</div>
+                <div class="outer-card 1b-b"></div>
+            </div>
+            <div class="cards 2b2" data-value="" data-open="" data-correct="" data-complete="false">
+                <div class="inner-card 2b-b">front</div>
+                <div class="outer-card 2b-b"></div>
+            </div>
+            <div class="cards 2b3" data-value="" data-open="" data-correct="" data-complete="false">
+                <div class="inner-card 3b-b">front</div>
+                <div class="outer-card 3b-b"></div>
+            </div>
+            <div class="cards 2b4" data-value="" data-open="" data-correct="" data-complete="false">
+                <div class="inner-card 4b-b">front</div>
+                <div class="outer-card 4b-b"></div>
+            </div>
+            <div class="cards 3c1" data-value="" data-open="" data-correct="" data-complete="false">
+                <div class="inner-card 1c-c">front</div>
+                <div class="outer-card 1c-c"></div>
+            </div>
+            <div class="cards 3c2" data-value="" data-open="" data-correct="" data-complete="false">
+                <div class="inner-card 2c-c">front</div>
+                <div class="outer-card 2c-c"></div>
+            </div>
+            <div class="cards 3c3" data-value="" data-open="" data-correct="" data-complete="false">
+            <div class="inner-card 3c-c">front</div>
+                <div class="outer-card 3c-c"></div>
+            </div>
+            <div class="cards 3c4" data-value="" data-open="" data-correct="" data-complete="false">
+                <div class="inner-card 4c-c">front</div>
+                <div class="outer-card 4c-c"></div>
+            </div>
+    </div>
+    <div class="difficulty-IF">
+        <div class="diffu-line">
+            <!-- just make this a drop down selection --> 
+             <!-- remake this shit -->
+            <h1>Difficulty</h1>
+            <select class="level-drop">
+                <option value="">Levels</option>
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+            </select>
+            <select class="time-drop">
+                <option value="">Time</option>
+                <option value="01:00">01:00</option>
+                <option value="02:30">02:30</option>
+                <option value="03:00">03:00</option>
+            </select>
+            <button class="diff-butn">Enter</button>
+        </div>  
+    </div>
+    <!-- add start button -->
+    <button class="start" style="color: black;">Start</button>
+    <button class="reset" style="color: black;">Reset</button>
+    <button class="difficulty" style="color: black;">Difficulty</button>
+</body>
+<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="./main.js" type="module"></script>
+</html>
